@@ -1,0 +1,138 @@
+.text1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #36393F;
+}
+
+nav {
+    display: block;
+}
+
+.rounded {
+    border-radius: 12px;
+}
+
+.block {
+    display: inline-block;
+    background-color: #4e4e4e;
+    padding: 10px;
+}
+
+#owner {
+    margin-right: 400px;
+    position: absolute;
+    top: 18%;
+    left: 36%;
+}
+
+#moderation {
+    margin-right: 400px;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+
+#fun {
+    margin-right: 400px;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+
+#misc {
+    margin-right: 400px;
+    position: absolute;
+    top: 18%;
+    left: 33.2%;
+}
+
+#cmdhelp {
+    margin-right: 200px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+#donating {
+    margin-right: 400px;
+    position: absolute;
+    top: 82%;
+    left: 36%;
+}
+
+.navigator {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.highlight {
+    background-color: rgb(131, 131, 131);
+}
+
+.nav1 {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 37px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(0, 70, 27);
+}
+
+.positioned {
+    position: relative;
+    top: 100px;
+}
+
+.position2 {
+    margin-left: 20px;
+}
+
+.coloured {
+    background-color: rgb(9, 7, 17);
+}
+
+.centered {
+    text-align: center;
+}
+
+.toWhite {
+    color: white;
+}
+
+.theader {
+    font-size: 40px;
+    background-color: #2433bbca;
+}
+
+.tbody {
+    font-size: 20px;
+    background-color: #3f2b99cc
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    background-color: #27d;
+    padding: 1px 13px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left: 85%;
+    border-radius: 12px;
+}
